@@ -1,0 +1,65 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+
+
+\title{EE2227-CONTROL SYSTEMS}
+\author{J BHANU PRAKASH , EE18BTECH11022}
+\centering
+\date{12 FEBRUARY 2020}
+\begin{document}
+\maketitle
+\begin{frame}{About}
+2018 Gate paper(EC section),Question No:5
+    
+\end{frame}
+\begin{frame}{QUESTION}
+\begin{itemize}Q. The Nyquist stability criterion and the Routh criterion both are powerful analysis tools for
+determining the stability of feedback controllers. Identify which of the following statements
+is FALSE:
+\newline
+\newline(A) Both the criteria provide information relative to the stable gain range of the system.
+\newline(B) The general shape of the Nyquist plot is readily obtained from the Bode magnitude plot
+for all minimum-phase systems.
+\newline(C) The Routh criterion is not applicable in the condition of transport lag, which can be
+readily handled by the Nyquist criterion.
+\newline(D) The closed-loop frequency response for a unity feedback system cannot be obtained
+from the Nyquist plot. 
+\end{itemize}
+\end{frame}
+\begin{frame}{ANSWER}
+\framesubtitle{}
+\begin{itemize}
+     The answer is option:(D)
+     \newline
+     \newline The closed-loop frequency response for a unity feedback system cannot be obtained from the Nyquist plot. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Reasons for the options}
+
+ \hspace{4mm} Option(A) Both the criteria provide information relative to the stable gain range of the system is true.
+ \newline
+  \newline Option(B) It's true because as in a minimum-phase system, Bode magnitude plot is enough to obtain a general
+approximation of its Nyquist plot.
+
+\end{frame}
+
+\begin{frame}{Reasons for the options}
+    
+
+\newline
+\newline Option(C)  Routh criterion can be applied to any system to check the stability of a system but a transport lag
+controller can only by explained using Nyquist Criterion.
+\newline
+\newline Option(D)  We can obtain closed-loop frequency response for Unity Feedback system easily by substituting s
+= jω, and draw the plot for different values of ω. Usually this is not done as it is not necessary as
+OLTF is enough to comment on the stability. Thus, (D) is false.
+
+   
+\end{frame}
+
+\begin{frame}
+\huge{\centerline{Thank you}}
+\end{frame}
+
+\end{document}
